@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() {
+char name[50],age[50];
+
+printf("\n1.Input the name and age greater than 18:\n ");
+gets(name);
+printf("\nI'm %s ",name);
+
+printf("\n2.Input name and age less than 18:\n ");
+gets(name);
+printf("\nI'm %s \n",name);
+
+printf("\n\n3.Input the name and age as text:\n ");
+gets(name);
+printf("\nI'm %s \n",name);
+
+printf("\n4.Input your name full name with spaces and your age:\n ");
+gets(name);
+printf("\n I'm %s \n",name);
+
+printf("Programmed By:Dylene R. Darunday\n");
+printf("THANK YOU FOR WATCHING!");
+
+return 0;
+}
